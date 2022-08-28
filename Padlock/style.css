@@ -1,0 +1,87 @@
+body {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: #f47d83;
+}
+
+#padlock {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 55%;
+  left: 50%;
+  /* background: black; */
+}
+
+#padlock-body {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  background: white;
+}
+
+#padlock-body::before {
+  position: relative;
+  display: block;
+  content: "";
+  left: 40px;
+  top: 30px;
+  background: black;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+#padlock-body::after {
+  position: relative;
+  display: block;
+  content: "";
+  left: 45px;
+  top: 20px;
+  background: black;
+  width: 10px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+#padlock-bar {
+  content: "";
+  position: relative;
+  display: block;
+  left: 20px;
+  top: 10px;
+  border: 10px solid white;
+  border-bottom: none;
+  background: transparent;
+  width: 40px;
+  height: 60px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  animation: open-close 2s ease-out infinite;
+}
+
+#padlock-bar::before {
+  position: relative;
+  display: block;
+  width: 200px;
+  height: 20px;
+  background: black;
+  top: 10px;
+  left: 0px;
+}
+
+@keyframes open-close {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

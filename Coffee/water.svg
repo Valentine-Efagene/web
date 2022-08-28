@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2019 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" height="100%" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 11 8.5"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:#03A9F4}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <rect x="5.83333" y="1.46035" width="3.32122" height="2.82091"/>
+   </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g style="clip-path:url(#id0)">
+   <image x="5.83333" y="1.46035" width="3.32122" height="2.82091" xlink:href="Wave_Images\Wave_ImgID1.png"/>
+  </g>
+  <polygon class="fil0" points="1.25348,1.52769 1.25348,1.52769 1.25349,1.34634 1.48658,1.25259 1.59657,1.21874 1.79562,1.17967 1.93181,1.17186 2.04181,1.17967 2.15966,1.18488 2.37704,1.22915 2.5368,1.27603 2.67037,1.33072 2.88775,1.38801 3.09988,1.42186 3.20988,1.44009 3.26356,1.44139 3.26487,1.6875 3.2639,1.6875 3.2639,3.06626 1.25348,3.06626 1.25348,1.68229 "/>
+ </g>
+</svg>
